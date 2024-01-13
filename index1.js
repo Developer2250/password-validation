@@ -1,14 +1,11 @@
 function myFunction() {
     let length = document.getElementById("textLength");
-    let error = document.getElementById("error");
     let passwordText = document.getElementById("passwordID").value;
 
     let passwordLength = passwordText.length;
     length.textContent = passwordLength;
 
-    if (passwordLength < 11) {
-        console.log("length is less then 11");
-    } else {
+    if (passwordLength > 11) {
         document.getElementById("passwordID").setAttribute("maxlength", "10");
         return;
     }
