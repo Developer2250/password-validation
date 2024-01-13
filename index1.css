@@ -1,0 +1,30 @@
+input[id='password'] {
+    border: none;
+    width: 80%;
+    outline: none;
+    border-bottom: 5px solid #efefef;
+    display: block;
+    position: relative;
+    font-size: 27px;
+    text-align: center;
+    top: 50px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    user-select: auto;
+    font-family: 'Slabo 27px', serif;
+    transition-duration: 600ms;
+}
+
+#check0,
+#check1,
+#check2,
+#check3,
+#check4 {
+    display: block;
+    position: relative;
+    margin: 4%;
+    color: tomato;
+    font-size: 18px;
+    width: 92%;
+
+}
